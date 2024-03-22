@@ -1,7 +1,8 @@
 {
   "name": "@gietmanic/react-umami",
-  "version": "0.0.1",
-  "description": "The react-cookie-solution package offers a seamless solution for managing cookies within React applications.",
+  "version": "0.0.3",
+  "private": false,
+  "description": "The Umami Analytics Loader is a lightweight script that enables you to easily integrate Umami Analytics into your website. Umami is a simple, open-source website analytics tool that provides valuable insights into your website's traffic without compromising privacy.\n\n",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -11,7 +12,9 @@
     "release": "npm run build && changeset publish"
   },
   "keywords": [
-    "React"
+    "React",
+    "Umami",
+    "Analytics"
   ],
   "repository": {
     "type": "git",
