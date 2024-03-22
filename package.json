@@ -1,0 +1,38 @@
+{
+  "name": "@gietmanic/react-umami",
+  "version": "0.0.1",
+  "description": "The react-cookie-solution package offers a seamless solution for managing cookies within React applications.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "release": "npm run build && changeset publish"
+  },
+  "keywords": [
+    "React"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gietmanic/react-cookie-solution.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gietmanic/react-cookie-solution/issues"
+  },
+  "author": "Gietmanic - Daniel Gietmann <support@gietmanic.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/react": "^18.2.64",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "next": "^14.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
