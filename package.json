@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gietmanic/react-cookie-solution.git"
+    "url": "https://github.com/gietmanic/gietmanic-umami-react.git"
   },
   "bugs": {
-    "url": "https://github.com/gietmanic/react-cookie-solution/issues"
+    "url": "https://github.com/gietmanic/gietmanic-umami-react/issues"
   },
   "author": "Gietmanic - Daniel Gietmann <support@gietmanic.de>",
   "license": "MIT",
