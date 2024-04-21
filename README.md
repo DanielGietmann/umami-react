@@ -12,7 +12,7 @@ The Umami Analytics Loader is a lightweight script that enables you to easily in
 Install  with npm
 
 ```bash
-  npm i @gietmanic/react-umami
+  npm i @danielgietmann/react-umami
 ```
 
 ## Usage/Examples
@@ -20,7 +20,7 @@ In the Main Layout File
 Replace GTag with your GTag ID and GAnalytics with your Analytics Id
 
 ```javascript
-import {UmamiAnalytics} from "@gietmanic/react-umami";
+import {UmamiAnalytics} from "@danielgietmann/react-umami";
 
 function App() {
   return (

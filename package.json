@@ -1,8 +1,8 @@
 {
-  "name": "@gietmanic/react-umami",
-  "version": "0.0.3",
+  "name": "@danielgietmann/react-umami",
+  "version": "0.0.4",
   "private": false,
-  "description": "The Umami Analytics Loader is a lightweight script that enables you to easily integrate Umami Analytics into your website. Umami is a simple, open-source website analytics tool that provides valuable insights into your website's traffic without compromising privacy.\n\n",
+  "description": "The Umami Analytics Loader is a lightweight script that enables you to easily integrate Umami Analytics into your website. Umami is a simple, open-source website analytics tool that provides valuable insights into your website's traffic without compromising privacy.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -18,12 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gietmanic/gietmanic-umami-react.git"
+    "url": "https://github.com/DanielGietmann/umami-react.git"
   },
   "bugs": {
-    "url": "https://github.com/gietmanic/gietmanic-umami-react/issues"
+    "url": "https://github.com/DanielGietmann/umami-react/issues"
   },
-  "author": "Gietmanic - Daniel Gietmann <support@gietmanic.de>",
+  "author": "Daniel Gietmann <hello@danielgietmann.de>",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
