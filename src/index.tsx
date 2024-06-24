@@ -35,7 +35,7 @@ const UmamiAnalytics = ()=>{
         return (
             <script
                 defer
-                src={UmamiUrl}
+                src={UmamiUrl+"/script.js"}
                 data-website-id={UmamiId}
             >
             </script>

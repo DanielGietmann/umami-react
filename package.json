@@ -1,6 +1,6 @@
 {
   "name": "@gietmanic/react-umami",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "The Umami Analytics Loader is a lightweight script that enables you to easily integrate Umami Analytics into your website. Umami is a simple, open-source website analytics tool that provides valuable insights into your website's traffic without compromising privacy.",
   "main": "./dist/index.js",
