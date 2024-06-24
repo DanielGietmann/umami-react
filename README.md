@@ -12,24 +12,21 @@ The Umami Analytics Loader is a lightweight script that enables you to easily in
 Install  with npm
 
 ```bash
-  npm i @danielgietmann/react-umami
+  npm i @gietmanic/react-umami
 ```
 
 ## Usage/Examples
 In the Main Layout File
-Replace GTag with your GTag ID and GAnalytics with your Analytics Id
+Add the UmamiAnalytics Component to the Body of your Website
 
 ```javascript
-import {UmamiAnalytics} from "@danielgietmann/react-umami";
+import {UmamiAnalytics} from "@gietmanic/react-umami";
 
 function App() {
   return (
       <html lang="en">
             <body>
-                <UmamiAnalytics
-                    UmamiUrl="www.youranalytics.de"
-                    UmamiId="123131-231312-132123-12313"
-                />
+                <UmamiAnalytics/>
                 {children}
             </body>
         </html>
@@ -38,9 +35,18 @@ function App() {
 }
 ```
 
+## Options
+Set in your .env File
+
+| Option | Type     | Description                | Default   |
+|--------|----------|----------------------------|-----------|
+| UMAMI_URL | `string` | The URL of your Umami Instance | `""`      |
+| UMAMI_ID | `string` | The ID of your Umami Instance | `""`      |
+| UMAMI_DEBUG | `string` | The ID of your Umami Instance | `"false"` |
+
+
 ## Roadmap
 
-- More Config Options
 
 - Cookies Check (DSGVO)
 
